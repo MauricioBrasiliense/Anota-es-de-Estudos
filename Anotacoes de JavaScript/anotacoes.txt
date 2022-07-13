@@ -1,2 +1,3 @@
 # Anotações relacionadas a JavaScript
 
+Aqui será feita todas as anotações referente aos estudos de JavaSript durante o curso da DIO
