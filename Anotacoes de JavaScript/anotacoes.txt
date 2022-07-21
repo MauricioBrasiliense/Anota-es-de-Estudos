@@ -1,3 +1,74 @@
 # Anotações relacionadas a JavaScript
 
 Aqui será feita todas as anotações referente aos estudos de JavaSript durante o curso da DIO
+
+Variáveis em JavaScript > O tipo de variável mais utilizado em JavaScript é o Camel Case, porém também é muito usado o Upper Case Snake Case, onde você usa apenas letras maiusculas com underline.
+
+Pode ser usada tanto o "var" quanto o "let" para declarar uma variável. 
+
+Exemplos: 
+//Ao usar a função let sempre por no começos, pois o JavaScript não joga ela automatico para o inicio do código, já com o VAR ele faz isso automaticamente. 
+let numberOne;
+
+numberOne = 1;
+
+console.log(numberOne + 2);
+
+Strings > 
+let nome = "Mauricio";
+let sobrenome = "Brasiliense"
+
+nome.concat(sobrenome) > Para juntar nome e sobrenome
+
+let concatenado = nome.concat(sobrenome) > Para mostrar na tela
+
+concatenado = nome + " " + sobrenome > Para separar os dois
+
+concatenado = nome + "\n\n" + sobrenome > Para pular linha entre nome e sobrenome
+
+O comando lenght mostra quantas letras tem dentro do objeto que você colocou.
+
+O comando SPLIT separa sua frase.
+let frase = "Olá, tudo bem?"
+exemplo > frase.split(" ")
+
+frase.include("tudo") > Para verificar se existe uma palavra chave dentro da frase.
+
+frase.startswith("O") > Verificar se começa com a letra, caso não ele te retorna FALSE.
+
+frase.endswith("?") > Verifica se termina com determinada letra.
+
+ARRAYS > 
+
+let array = []
+undefined
+array.push(3)
+1
+array
+[3]
+array.push(2)
+2
+array
+(2) [3, 2]
+array.pop()
+2
+array
+[3]
+array.push(2)
+2
+array.push(5)
+3
+array.shift()
+3
+array
+(2) [2, 5]
+array.unshift(1)
+3
+array
+(3) [1, 2, 5]
+for(let i = 0; i < array.length; i++){
+    console.log(array[i])
+}
+1
+2
+5
